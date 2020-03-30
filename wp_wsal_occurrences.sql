@@ -1,5 +1,5 @@
 SET NAMES utf8mb4;
-
+TRUNCATE TABLE `wp_wsal_occurrences`;
 INSERT INTO `wp_wsal_occurrences` (`id`, `site_id`, `alert_id`, `created_on`, `is_read`, `is_migrated`) VALUES
 (1,	1,	5001,	1578040334.20438,	CONV('0', 2, 10) + 0,	CONV('0', 2, 10) + 0),
 (2,	1,	2101,	1578040386.180702,	CONV('0', 2, 10) + 0,	CONV('0', 2, 10) + 0),

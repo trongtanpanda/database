@@ -1,5 +1,5 @@
 SET NAMES utf8mb4;
-
+TRUNCATE TABLE `wp_yoast_seo_links`;
 INSERT INTO `wp_yoast_seo_links` (`id`, `url`, `post_id`, `target_post_id`, `type`) VALUES
 (1278,	'http://sleepeducation.org/news/2013/08/07/sleep-and-growing-older',	5758,	0,	'external'),
 (1279,	'https://www.webmd.com/sleep-disorders/features/do-seniors-need-less-sleep#1',	5758,	0,	'external'),

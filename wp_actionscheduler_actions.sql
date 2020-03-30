@@ -1,5 +1,5 @@
 SET NAMES utf8mb4;
-
+TRUNCATE TABLE `wp_actionscheduler_actions`;
 INSERT INTO `wp_actionscheduler_actions` (`action_id`, `hook`, `status`, `scheduled_date_gmt`, `scheduled_date_local`, `args`, `schedule`, `group_id`, `attempts`, `last_attempt_gmt`, `last_attempt_local`, `claim_id`, `extended_args`) VALUES
 (16501,	'MailChimp_WooCommerce_Single_Product',	'failed',	'2020-02-27 05:50:39',	'2020-02-27 05:50:39',	'{\"obj_id\":4102}',	'O:30:\"ActionScheduler_SimpleSchedule\":2:{s:22:\"\0*\0scheduled_timestamp\";i:1582782639;s:41:\"\0ActionScheduler_SimpleSchedule\0timestamp\";i:1582782639;}',	3,	1,	'2020-02-27 05:51:15',	'2020-02-27 12:51:15',	13794,	NULL),
 (16614,	'woocommerce_deliver_webhook_async',	'complete',	'2020-02-29 04:58:26',	'2020-02-29 04:58:26',	'{\"webhook_id\":5,\"arg\":17216}',	'O:30:\"ActionScheduler_SimpleSchedule\":2:{s:22:\"\0*\0scheduled_timestamp\";i:1582952306;s:41:\"\0ActionScheduler_SimpleSchedule\0timestamp\";i:1582952306;}',	2,	1,	'2020-02-29 04:59:16',	'2020-02-29 11:59:16',	0,	NULL),

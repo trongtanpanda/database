@@ -1,5 +1,5 @@
 SET NAMES utf8mb4;
-
+TRUNCATE TABLE `wp_actionscheduler_logs`;
 INSERT INTO `wp_actionscheduler_logs` (`log_id`, `action_id`, `message`, `log_date_gmt`, `log_date_local`) VALUES
 (992,	16501,	'action created',	'2020-02-27 05:50:34',	'2020-02-27 05:50:34'),
 (993,	16501,	'action started via WP Cron',	'2020-02-27 05:51:15',	'2020-02-27 05:51:15'),

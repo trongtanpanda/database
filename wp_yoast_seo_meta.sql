@@ -1,5 +1,5 @@
 SET NAMES utf8mb4;
-
+TRUNCATE TABLE `wp_yoast_seo_meta`;
 INSERT INTO `wp_yoast_seo_meta` (`object_id`, `internal_link_count`, `incoming_link_count`) VALUES
 (5,	0,	0),
 (16,	8,	11),
